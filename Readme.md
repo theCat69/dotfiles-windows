@@ -1,5 +1,20 @@
 # The cat dotfiles on Windows
 
+My dotfiles are just my windows minimal configuration for some tools I use to make my terminal experience awesome.
+It contains my ideavimrc as well as I am mainly a Java developer.
+If you want to use them or just pick few things in it, feal free to do so, but at your own risk :smirk:.
+
+![term screenshot](./screen-dot-windows.webp)
+
+## Contents
+
+- clink
+- wezterm
+- neovim
+- starship
+- gitui
+- ideavimrc
+
 ## Installation
 
 - Install MSYS2
