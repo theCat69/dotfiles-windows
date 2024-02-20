@@ -63,6 +63,10 @@ set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 - Put it under %DEV%/terminal/clink the exe should be accessible like so %DEV%/terminal/clink/clink_x64.exe
 - Remove the prefix on default_settings and default_inputrc as written [here](https://chrisant996.github.io/clink/clink.html#gettingstarted_enhanceddefaults)
 
+### Install Zoxide
+
+- Zoxide : [install via winget](https://github.com/ajeetdsouza/zoxide)
+
 ### Install Starship
 
 - Starship : [download via winget](https://github.com/starship/starship)
@@ -106,3 +110,7 @@ stow . -t /c/Users/<username>
 ```sh
 ./install-scripts/deploy-ideavimrc.sh 
 ```
+
+### Take a break
+
+Get a nice and cold bear. Sit, relax, open wezterm and enjoy !
