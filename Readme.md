@@ -5,7 +5,7 @@ It contains my ideavimrc as well as I am mainly a Java developer.
 If you want to use them or just pick few things in it, feal free to do so, but at your own risk :smirk:.
 
 ![term screenshot](./screen-dot-windows.webp)
-
+![term screenshot2](./screen-dot-windows2.webp)
 ## Contents
 
 - clink
