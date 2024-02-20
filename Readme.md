@@ -8,10 +8,11 @@
 pacman -S stow
 ```
 - Modify your environment to have MSYS=winsymlinks:nativestrict
-- Open MSYS prompt and run
+- Open MSYS prompt as administrator and run
 ```sh
 stow . -t /c/Users/<username>
 ./install-scripts/deploy-starship.sh 
 ./install-scripts/deploy-nvim.sh 
+./install-scripts/deploy-ideavimrc.sh 
 ```
 

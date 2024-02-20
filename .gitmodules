@@ -13,3 +13,6 @@
 [submodule ".config/clink"]
 	path = .config/clink
 	url = https://github.com/theCat69/clink-config
+[submodule ".config/ideavimrc"]
+	path = .config/ideavimrc
+	url = https://github.com/theCat69/ideavimrc

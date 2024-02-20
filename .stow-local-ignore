@@ -1,5 +1,6 @@
 \.config/starship
 \.config/nvim
+\.config/ideavimrc
 \.git
 \.gitignore
 \.gitmodules
