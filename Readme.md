@@ -93,6 +93,7 @@ set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 - Eza : [install](https://github.com/eza-community/eza)
 - Add eza.exe to Path
 
+
 ### Install Neovim
 
 - Neovim : [download](https://github.com/neovim/neovim) and [build it from source](https://github.com/neovim/neovim/blob/master/BUILD.md)
@@ -138,3 +139,9 @@ stow . -t $HOME
 ### Take a break
 
 Get a nice and cold bear. Sit, relax, open wezterm and enjoy !
+
+## Additional tools
+
+### Topgrade
+A really nice and minimalist version cross-platform version manager.
+- Topgrade : [install](https://github.com/topgrade-rs/topgrade)

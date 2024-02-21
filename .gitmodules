@@ -16,3 +16,6 @@
 [submodule ".config/ideavimrc"]
 	path = .config/ideavimrc
 	url = https://github.com/theCat69/ideavimrc
+[submodule ".config/topgrade"]
+	path = .config/topgrade
+	url = https://github.com/theCat69/topgrade-config
