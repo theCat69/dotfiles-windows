@@ -80,7 +80,7 @@ set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 
 ### Install Fzf
 
-- Fzf : [install]()
+- Fzf : [install](https://github.com/junegunn/fzf)
 - Add fzf to Path
 
 ### Install Neovim
@@ -99,6 +99,7 @@ set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 > **Warning**
 > This is one of my personal project and it is not ment to be use by anyone but me so you better go inside .config/wezterm/wezterm.lua and change { 'gbb', 'ui' } by the 'gitui' command.
 - GitButBetter : [downlaod and build from source](https://github.com/theCat69/git-but-better)
+- Add gbb.exe to path
 
 ### Link the configuration
 
