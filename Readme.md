@@ -112,9 +112,9 @@ pacman -S stow
 ```
 
 - Modify your environment to have MSYS=winsymlinks:nativestrict
-- Open MSYS prompt as administrator and run
+- Open MSYS prompt as administrator, go to this project directory ($DEV/.dotfiles) and run
 ```sh
-stow . -t /c/Users/<username>
+stow . -t $HOME
 ./install-scripts/deploy-starship.sh 
 ./install-scripts/deploy-nvim.sh 
 ./install-scripts/deploy-gitui.sh 
