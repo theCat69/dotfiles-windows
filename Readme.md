@@ -81,7 +81,17 @@ set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 ### Install Fzf
 
 - Fzf : [install](https://github.com/junegunn/fzf)
-- Add fzf to Path
+- Add fzf.exe to Path
+
+### Install Bat 
+
+- Bat : [install](https://github.com/sharkdp/bat)
+- Add bat.exe to Path
+
+### Install Eza 
+
+- Eza : [install](https://github.com/eza-community/eza)
+- Add eza.exe to Path
 
 ### Install Neovim
 
