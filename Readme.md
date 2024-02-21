@@ -66,10 +66,22 @@ set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 ### Install Zoxide
 
 - Zoxide : [install via winget](https://github.com/ajeetdsouza/zoxide)
+- Add zoxide.exe to Path
 
 ### Install Starship
 
 - Starship : [download via winget](https://github.com/starship/starship)
+- Add starship.exe to Path
+
+### Install Ripgrep
+
+- Ripgrep : [install or build from source](https://github.com/BurntSushi/ripgrep)
+- Add rg.exe to Path
+
+### Install Fzf
+
+- Fzf : [install]()
+- Add fzf to Path
 
 ### Install Neovim
 
@@ -104,6 +116,7 @@ pacman -S stow
 stow . -t /c/Users/<username>
 ./install-scripts/deploy-starship.sh 
 ./install-scripts/deploy-nvim.sh 
+./install-scripts/deploy-gitui.sh 
 ```
 
 - If you use IntelliJ you can additionaly use my ideavimrc 

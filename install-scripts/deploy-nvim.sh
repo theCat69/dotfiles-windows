@@ -1,1 +1,1 @@
-ln -s /c/dev/.dotfiles/.config/nvim/ /c/Users/fef/AppData/Local/
+ln -s $DEV/.dotfiles/.config/nvim/ $HOME/AppData/Local/
