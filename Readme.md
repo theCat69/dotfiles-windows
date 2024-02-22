@@ -8,6 +8,8 @@ This run on native windows CMD btw.
 ![term screenshot](./screen-dot-windows.webp)
 ![term screenshot2](./screen-dot-windows2.png)
 
+If you use a linux distro I use ubuntu as well with fish instead of clink : [dotfiles-ubuntu](https://github.com/theCat69/dotfiles-ubuntu) 
+
 ## Contents
 
 - clink
@@ -19,10 +21,15 @@ This run on native windows CMD btw.
 
 ## Installation 
 
+### Notes about installation
+
+What works best for me is ususally installing with winget when i can then cargo with the "cargo install".
+However, you can use any package manager you like. 
+
 ### Set up your environment
 
 > **Note**
-> I personally use environment variables to setup my stuff on different systems and i often keep the same ordering of folders. You can follow along if you like or do something completly different but you will have to search for every path in every lua file to be sure everything is at the write place on disk
+> I personally use environment variables to setup my stuff on different systems and i often keep the same ordering of folders. You can follow along if you like or do something completly different but you will have to search for every path in every lua file to be sure everything is at the right place on disk
 
 ```sh
  set DEV=C:\dev

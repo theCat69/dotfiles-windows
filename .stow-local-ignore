@@ -3,6 +3,7 @@
 \.config/ideavimrc
 \.config/gitui
 \.config/toprade
+
 \.git
 \.gitignore
 \.gitmodules
