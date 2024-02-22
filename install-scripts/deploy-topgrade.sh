@@ -1,1 +1,1 @@
-ln -s $DEV/.dotfiles/.config/topgrade/topgrade.toml $APPDATA
+ln -s $DOTFILES/.config/topgrade/topgrade.toml $APPDATA

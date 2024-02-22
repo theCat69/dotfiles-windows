@@ -1,1 +1,1 @@
-ln -s $DEV/.dotfiles/.config/gitui/ $APPDATA
+ln -s $DOTFILES/.config/gitui/ $APPDATA

@@ -1,1 +1,1 @@
-ln -s $DEV/.dotfiles/.config/starship/starship.toml $HOME/.config/
+ln -s $DOTFILES/.config/starship/starship.toml $HOME/.config/

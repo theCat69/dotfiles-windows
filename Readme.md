@@ -27,13 +27,14 @@ This run on native windows CMD btw.
 ```sh
  set DEV=C:\dev
  set HOME=C:\Users\<username>
+ set DOTFILES=C:\dev\.dotfiles
 ```
 
 ### Clone this repo
 
-- clone it under %DEV%
+- clone it under %DOTFILES%
 ```sh
-git clone <url> %DEV%/.dotfiles
+git clone <url> %DOTFILES%
 ```
 
 ### Install MSYS2
@@ -93,7 +94,6 @@ set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 - Eza : [install](https://github.com/eza-community/eza)
 - Add eza.exe to Path
 
-
 ### Install Neovim
 
 - Neovim : [download](https://github.com/neovim/neovim) and [build it from source](https://github.com/neovim/neovim/blob/master/BUILD.md)
@@ -104,13 +104,6 @@ set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 
 - Gitui : [download or build from source](https://github.com/extrawurst/gitui)
 - Add gitui.exe to Path
-
-### Install GitButBetter
-
-> **Warning**
-> This is one of my personal project and it is not ment to be use by anyone but me so you better go inside .config/wezterm/wezterm.lua and change { 'gbb', 'ui' } by the 'gitui' command.
-- GitButBetter : [downlaod and build from source](https://github.com/theCat69/git-but-better)
-- Add gbb.exe to path
 
 ### Link the configuration
 
@@ -145,3 +138,8 @@ Get a nice and cold bear. Sit, relax, open wezterm and enjoy !
 ### Topgrade
 A really nice and minimalist version cross-platform version manager.
 - Topgrade : [install](https://github.com/topgrade-rs/topgrade)
+```sh
+./install-scripts/deploy-topgrade.sh 
+```
+> **Note**
+> I use custom scripts to build projects i got from github and build manually from source. Check them out before using topgrade.
