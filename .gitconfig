@@ -1,0 +1,29 @@
+[user]
+  email = vadcard.felix@gmail.com	
+  name = Felix Vadcard
+  password = ''
+[core]
+  editor = nvim
+  pager = delta
+[pull]
+  rebase = false
+[fetch]
+  prune = false
+[rebase]
+  autoStash = false
+[safe]
+  directory = C:/dev/editeur/neovim
+[interactive]
+  diffFilter = delta --color-only
+[delta]
+  navigate = true  
+  light = false     
+[merge]
+  conflictstyle = diff3
+  tool = nvimdiff
+[diff]
+  colorMoved = default
+[init]
+  defaultBranch = main
+[mergetool]
+  keepBackup = false
