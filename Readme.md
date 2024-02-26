@@ -124,6 +124,9 @@ pacman -S stow
 
 - Modify your environment to have MSYS=winsymlinks:nativestrict
 - Open MSYS prompt as administrator, go to this project directory ($DEV/.dotfiles) and run
+> **Note**
+> If you can't have administrator rights you could use the developer settings for windows instead that will allow you to make windows symlink (shortcut) without admin rights.
+
 ```sh
 stow . -t $HOME
 ./install-scripts/deploy-starship.sh 
