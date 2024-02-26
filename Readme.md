@@ -153,3 +153,9 @@ A really nice and minimalist version cross-platform version manager.
 ```
 > **Note**
 > I use custom scripts to build projects i got from github and build manually from source. Check them out before using topgrade.
+
+### Fd
+Alternative to find and works on every system.
+- Fd : [install](https://github.com/sharkdp/fd)
+> **Note**
+> no config installation for fd
