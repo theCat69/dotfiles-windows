@@ -19,3 +19,6 @@
 [submodule ".config/topgrade"]
 	path = .config/topgrade
 	url = https://github.com/theCat69/topgrade-config
+[submodule ".config/bat"]
+	path = .config/bat
+	url = https://github.com/theCat69/bat-config

@@ -41,7 +41,7 @@ However, you can use any package manager you like.
 
 - clone it under %DOTFILES%
 ```sh
-git clone <url> %DOTFILES%
+git clone --recurse-submodules <url> %DOTFILES%
 ```
 
 ### Install MSYS2
@@ -132,6 +132,7 @@ stow . -t $HOME
 ./install-scripts/deploy-starship.sh 
 ./install-scripts/deploy-nvim.sh 
 ./install-scripts/deploy-gitui.sh 
+./install-scripts/deploy-bat.sh 
 ```
 
 - If you use IntelliJ you can additionaly use my ideavimrc 
