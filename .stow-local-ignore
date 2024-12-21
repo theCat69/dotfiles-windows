@@ -4,6 +4,8 @@
 \.config/gitui
 \.config/toprade
 \.config/bat
+\.config/k9s
+\.config/topgrade
 
 \.git
 \.gitignore
