@@ -1,1 +1,1 @@
-ln -s $DOTFILES/.config/nvim/ $HOME/AppData/Local/
+ln -s $DOTFILES/.config/nvim/ $LOCALAPPDATA
