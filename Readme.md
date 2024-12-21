@@ -48,11 +48,11 @@ git clone --recurse-submodules <url> %DOTFILES%
 - MSYS2 : [msys2 website](https://www.msys2.org/)
 - Install msys2 package by opening msys2 console :
 ```sh
-pacman -S mingw-w64-x86_64-{gcc,cmake,make,ninja,diffutils}
+pacman -S mingw-w64-ucrt-x86_64-{gcc,cmake,make,ninja,diffutils}
 ```
 - Add both to Path environment variable during installation (I personally always let them to have access to native unix like command and a c compiler).
 ```sh
-set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
+set PATH=c:\msys64\ucrt64\bin;c:\msys64\usr\bin;%PATH%
 ```
 
 ### Install Wezterm 
