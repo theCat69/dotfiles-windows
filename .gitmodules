@@ -22,3 +22,6 @@
 [submodule ".config/bat"]
 	path = .config/bat
 	url = https://github.com/theCat69/bat-config
+[submodule ".config/k9s"]
+	path = .config/k9s
+	url = https://github.com/theCat69/k9s-config
