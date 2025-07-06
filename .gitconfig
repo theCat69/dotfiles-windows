@@ -5,6 +5,7 @@
 [core]
   editor = nvim
   pager = delta
+	longpaths = true
 [pull]
   rebase = false
 [fetch]
