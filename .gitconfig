@@ -1,11 +1,11 @@
 [user]
-  email = vadcard.felix@gmail.com	
+  email = vadcard.felix@gmail.com
   name = Felix Vadcard
   password = ''
 [core]
   editor = nvim
   pager = delta
-	longpaths = true
+  longpaths = true
 [pull]
   rebase = false
 [fetch]
@@ -18,7 +18,6 @@
   diffFilter = delta --color-only
 [delta]
   navigate = true  
-  ; i should use features to handle it with and env variable
   light = true
   syntax-theme = GitHub
 [merge]
